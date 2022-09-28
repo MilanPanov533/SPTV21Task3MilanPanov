@@ -3,8 +3,8 @@ package sptv21task3milanpanov;
 import java.util.Scanner;
 
 public class sptv21task3milanpanov{
-    public static int year2;
     static enum month {Января,Февраля, Марта, Апреля, Мая, Июня, Июня, Августа, Сентября, Октября, Ноября, Декабря}
+    public static int year2;
     public static void main(String[] args) {
         System.out.println("Имя(Латиницей) -  ");
         Scanner scanner_name = new Scanner(System.in);
